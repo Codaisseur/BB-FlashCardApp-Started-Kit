@@ -33,7 +33,7 @@ describe('Data Structure', function () {
 
 describe('Functionality', function () {
 
-  it('Declare a function called "pickRandomNumber", and assign it a random number >= 0 and < the largest index number of your data array', function () {
+  it('Declare a function called "pickRandomNumber", it should return a random number between 0 and the length of data array - 1', function () {
     expect(sinon.match.defined.test(pickRandomNumber), 'Cant find "pickRandomNumber".').to.exist
     expect(pickRandomNumber, 'pickRandomNumber is not a number!').to.be.a('function')
     // expect(randomNumber, 'Your number is not a integer!').to.be.an('integer')
