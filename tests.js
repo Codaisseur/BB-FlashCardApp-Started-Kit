@@ -95,7 +95,7 @@ describe('User interaction', function(){
   })
 
   it('Your body should render a <button> element with an id "showAnswer" and display the text "Show Answer!', function() {
-    expect(showAnswerButton, 'You have no <button> element rendering with and id="showAnwser"!').to.exist
+    expect(showAnswerButton, 'You have no <button> element rendering with and id="showAnswer"!').to.exist
     expect(showAnswerButton.innerHTML, 'It does not display "Show Answer!"').to.equal('Show Answer!')
   })
 
